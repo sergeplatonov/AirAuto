@@ -6,6 +6,6 @@
 
 `docker-compose up airflow-init`
 
-`docker build -f dags/Dockerfile -t registry.dg-i.net/vbmc/datascience/airflow2-dags:preprod --build-arg DAG_DIRECTORY=preprod .`
+`docker build -f dags/Dockerfile -t image_name --build-arg DAG_DIRECTORY=master .`
 
 `docker-compose up -d`
